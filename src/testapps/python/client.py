@@ -16,3 +16,13 @@ exporter = OTLPSpanExporter(endpoint="http://0.0.0.0:4318/v1/traces")
 processor = BatchSpanProcessor(span_exporter=exporter)
 trace.set_tracer_provider(provider)
 provider.add_span_processor(processor)
+
+
+async def main():
+    async with aiohttp.ClientSession() as session:
+        async with session.get('http://httpbin.org/get') as resp:
+            print(resp.status)
+            print(await resp.text())
+
+
+asyncio.run(main())
