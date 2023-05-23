@@ -36,7 +36,7 @@ platformdirs==2.5.2
 protobuf==4.21.6
 psutil==5.9.2
 pyzmq==24.0.0
-requests==2.27.1
+requests==2.31.0
 roundrobin==0.0.4
 six==1.16.0
 tomli==2.0.1
