@@ -24,7 +24,7 @@ msgpack==1.0.4
 mypy-extensions==0.4.3
 opentelemetry-api==1.9.1
 opentelemetry-exporter-otlp-proto-grpc==1.9.1
-opentelemetry-instrumentation==0.28b1
+opentelemetry-instrumentation==0.41b0
 opentelemetry-instrumentation-requests==0.28b1
 opentelemetry-instrumentation-urllib3==0.28b1
 opentelemetry-proto==1.9.1
