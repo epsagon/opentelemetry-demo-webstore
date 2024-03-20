@@ -1,5 +1,5 @@
 backoff==1.10.0
-black==22.8.0
+black==24.3.0
 Brotli==1.0.9
 certifi==2022.9.14
 charset-normalizer==2.0.12
